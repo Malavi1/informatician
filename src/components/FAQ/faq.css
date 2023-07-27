@@ -37,7 +37,7 @@
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
-  color:#3372c1;
+  color: #3372c1;
   text-align: left;
 }
 
@@ -142,8 +142,8 @@
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
 }
-.accordion button .accordion-title:hover{
-  color:green;
+.accordion button .accordion-title:hover {
+  color: green;
 }
 .accordion button .icon {
   display: inline-block;
@@ -207,7 +207,20 @@
   margin: 2em 0;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
+  .faq-help-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .faq-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .faqcontainer,
   .container {
     padding: 1rem;
