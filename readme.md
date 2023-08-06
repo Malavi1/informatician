@@ -5,7 +5,6 @@
 - You can explore a vast collection of books, search for your favourite titles, and even contribute by adding new books to the platform. Whether you're an avid reader, a literary connoisseur, or simply seeking new knowledge, Informatician is here to provide you with an exceptional platform to explore, learn, and connect.
 
 ---
-### 🔗[Visit Website](https://www.informatician.in/)
 
 ## Table of Contents
 
@@ -54,10 +53,18 @@ $ git clone https://github.com/rohansx/informatician.git
  $ npm install
 ```
 
+3. Create a `.env.local` file and add the following:
+
+```sh
+MONGODB='YOUR_MONGO_CREDENTIALS'
+```
+> **Note**: Get your Mongodb credentials from [here](https://www.mongodb.com/products/platform/cloud)
+
+
 4. Start the application:
 
 ```sh
- $ npm start
+ $ npm run dev
 ```
 
  💻 The application can be accessed in a web browser at `http://localhost:3000`.
@@ -135,3 +142,6 @@ The project is licensed under the [MIT License](https://github.com/rohansx/infor
 <div align="center">
   <a href="#table-of-contents">Back to Top</a>
 </div>
+
+## Deployment of React branch
+https://react.informatician.in/
